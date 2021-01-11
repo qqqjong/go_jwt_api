@@ -12,7 +12,7 @@ import (
 	"github.com/qqqjong/go_jwt_api/api/auth"
 	"github.com/qqqjong/go_jwt_api/api/models"
 	"github.com/qqqjong/go_jwt_api/api/responses"
-	"github.com/qqqjong/go_jwt_api/api/formaterror"
+	"github.com/qqqjong/go_jwt_api/api/utils/formaterror"
 )
 
 func (server *Server) CreateUser(w http.ResponseWriter, r *http.Request) {
